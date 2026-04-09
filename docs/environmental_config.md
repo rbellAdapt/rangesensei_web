@@ -14,5 +14,7 @@
 
 ## Domain Management
 - **Deployment Private Email:** 'adaptivesensing@gmail.com'
+- **Email Waitlist Host:** 'adaptivesensing@gmail.com'
+- **Email Waitlist Filepath:** 'My Drive/RangeSesei/Web/RangeSensei Waitlist.gsheet'
 - **Public Contact:** `ryan.bell@rangesensei.io`-> 'ryan.bell@rangesensei.io'
 - **Public Support:** `support@rangesensei.io`

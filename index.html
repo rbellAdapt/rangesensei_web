@@ -78,6 +78,7 @@
             margin-bottom: 24px;
             background: linear-gradient(135deg, #FFF 0%, #B3B3B3 100%);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -195,9 +196,11 @@
         document.querySelector('form').addEventListener('submit', function (e) {
             e.preventDefault();
             const email = this.querySelector('input').value;
-            
+
+
+
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzPNZUWr46VSAxzei5TbS294-X_cdpABJVorlq2EPoxYdm-MekVFs7AcwSTR9y1Rv3l_g/exec';
-            
+
             const originalButtonHtml = this.querySelector('button').innerHTML;
             this.querySelector('button').innerHTML = 'Sending...';
 
