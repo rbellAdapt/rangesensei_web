@@ -1,0 +1,14 @@
+# Local environment variables
+env.local
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/
+*.code-workspace
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
